@@ -1,4 +1,4 @@
-name: Publish 'basic' theme
+name: Build 'basic' Mokk
 
 on: [push]
 
@@ -12,12 +12,12 @@ jobs:
       with:
         repository: 'MadeByEmil/Pigmeat'
     - name: Setup Rust toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: nightly
-          target: x86_64-unknown-linux-gnu
-          override: true
-          components: rust-src
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: nightly
+        target: x86_64-unknown-linux-gnu
+        override: true
+        components: rust-src
     - name: Build Dokkoo binary
       uses: actions-rs/cargo@v1
       with:
