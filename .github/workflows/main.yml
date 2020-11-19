@@ -6,11 +6,12 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    name: "Build"
 
     steps:
     - uses: actions/checkout@v2
       with:
-        repository: 'MadeByEmil/Pigmeat'
+        repository: 'MadeByEmil/dokkoo'
     - name: Setup Rust toolchain
       uses: actions-rs/toolchain@v1
       with:
