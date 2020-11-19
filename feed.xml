@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexis&#39; log</title>
+    <description>This is a test page</description>
+    <link>https://MadeByEmil.github.io/dokkoo-basic/</link>
+    <atom:link href="https://MadeByEmil.github.io/dokkoo-basic/feed.xml" rel="self" type="application/rss+xml"/>
+<pre><code>  &lt;item&gt;
+    &lt;title&gt;Article 1&lt;/title&gt;
+    &lt;description&gt;&amp;lt;p&amp;gt;Article 1&amp;lt;/p&amp;gt;
+</code></pre>
+</description>
+        <pubDate>2011-02-17T10:00:00+00:00</pubDate>
+        <link>https://MadeByEmil.github.io/dokkoo-basic/posts/2011/02/17/Article 1.html</link>
+        <guid isPermaLink="true">https://MadeByEmil.github.io/dokkoo-basic/posts/2011/02/17/Article 1.html</guid>
+      </item>
+</channel>
+</rss>
